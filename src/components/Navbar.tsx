@@ -17,8 +17,8 @@ export default function Navbar() {
           
           <div className="hidden md:flex items-center space-x-8">
             <NavLink to="/sobre-mi" icon={<BookOpen size={18} />} text="Sobre Mí" />
-            <NavLink to="#teologia" icon={<BookText size={18} />} text="Teología" />
-            <NavLink to="#arte" icon={<Palette size={18} />} text="Arte" />
+            <NavLink to="/teologia" icon={<BookText size={18} />} text="Teología" />
+            <NavLink to="/arte" icon={<Palette size={18} />} text="Arte" />
           </div>
 
           <div className="md:hidden flex items-center">
@@ -37,8 +37,8 @@ export default function Navbar() {
         <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white">
             <MobileNavLink to="/sobre-mi" text="Sobre Mí" />
-            <MobileNavLink to="#teologia" text="Teología" />
-            <MobileNavLink to="#arte" text="Arte" />
+            <MobileNavLink to="/teologia" text="Teología" />
+            <MobileNavLink to="/arte" text="Arte" />
           </div>
         </div>
       )}

@@ -5,6 +5,8 @@ import Navbar from '../components/Navbar';
 import BlogCarousel from '../components/BlogCarousel';
 import SubscribeForm from '../components/SubscribeForm';
 import SocialLinks from '../components/SocialLinks';
+import haroldSeguraImage from './img/harold-segura.jpg';
+
 
 function HomePage() {
   return (
@@ -31,11 +33,11 @@ function HomePage() {
               </Link>
             </div>
             <div className="flex-1">
-              <img
-                src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&q=80&w=1200"
-                alt="Harold Segura"
-                className="rounded-lg shadow-xl"
-              />
+            <img
+            src={haroldSeguraImage}
+            alt="Harold Segura"
+            className="rounded-lg shadow-xl"
+          />
             </div>
           </div>
         </div>

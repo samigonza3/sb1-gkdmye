@@ -31,7 +31,7 @@ function App() {
             </div>
             <div className="flex-1">
               <img
-                src="https://instagram.fclo9-1.fna.fbcdn.net/v/t51.2885-15/466384365_18468519913061433_3810005870971606477_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDY1eDcxMC5zZHIuZjc1NzYxLmRlZmF1bHRfaW1hZ2UifQ&_nc_ht=instagram.fclo9-1.fna.fbcdn.net&_nc_cat=109&_nc_ohc=kN3ZgOsZ7vwQ7kNvgF_-gBX&_nc_gid=ca4deb40f87543caa3222c503f875afb&edm=AP4sbd4BAAAA&ccb=7-5&ig_cache_key=MzQ5ODU0NDk4OTgwODA5NzA0MQ%3D%3D.3-ccb7-5&oh=00_AYCQSMN7tvjPpuFnxBd4XfzxttjzxjOEdsaUI-8w7Xfg1Q&oe=67407BAB&_nc_sid=7a9f4b"
+                src="src/img/harold-segura.jpg"
                 alt="Harold Segura"
                 className="rounded-lg shadow-xl"
               />

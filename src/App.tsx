@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import BlogCarousel from './components/BlogCarousel';
 import SubscribeForm from './components/SubscribeForm';
 import SocialLinks from './components/SocialLinks';
-import haroldSeguraImage from './assets/img/harold-segura.jpg';
+import haroldSeguraImage from './img/harold-segura.jpg';
 
 
 function App() {

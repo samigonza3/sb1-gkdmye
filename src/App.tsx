@@ -4,6 +4,8 @@ import Navbar from './components/Navbar';
 import BlogCarousel from './components/BlogCarousel';
 import SubscribeForm from './components/SubscribeForm';
 import SocialLinks from './components/SocialLinks';
+import haroldSeguraImage from './assets/img/harold-segura.jpg';
+
 
 function App() {
   return (
@@ -30,11 +32,12 @@ function App() {
               </a>
             </div>
             <div className="flex-1">
-              <img
-                src="src/img/harold-segura.jpg"
-                alt="Harold Segura"
-                className="rounded-lg shadow-xl"
-              />
+            <img
+            src={haroldSeguraImage}
+            alt="Harold Segura"
+            className="rounded-lg shadow-xl"
+          />
+
             </div>
           </div>
         </div>
